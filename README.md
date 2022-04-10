@@ -23,7 +23,7 @@ npm ci
 Запустить режим разработки.
 
 ```shell
-npm run dev
+
 ```
 
 Во вкладке браузера перейти по адресу [http://localhost:1234](http://localhost:1234).
