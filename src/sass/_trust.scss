@@ -1,0 +1,16 @@
+.trust__container {
+    width: 1224px;
+    height: 253px;
+    background: rgba(44, 53, 61, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+}
+
+.trust__titel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: calc(36 / 24);
+    color: rgba(255, 255, 255, 0.8);
+}
