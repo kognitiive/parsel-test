@@ -29,6 +29,7 @@ background-color: #1E252B;
 
 .hero-form-box {
     display: flex;
+    position: relative;
 }
 
 .hero-form {
@@ -52,6 +53,8 @@ color: rgba(255, 255, 255, 0.38);
 
 .hero-form__btn {
     position: absolute;
+    // top: 50%;
+    // top: 50%;
 }
 
 .list {
