@@ -1,0 +1,66 @@
+
+.hero {
+max-width: 1440px;
+height: 626px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 104px;
+padding-left: 111px;
+background-color: #1E252B;
+
+}
+
+.hero__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+}
+
+
+.hero__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 60px;
+}
+
+.hero-form-box {
+    display: flex;
+}
+
+.hero-form {
+    width: 498px;
+    height: 64px;
+    margin-bottom: 110px;
+    background: #283036;
+    border-radius: 15px;
+}
+.hero-form__imput {
+
+}
+
+
+.hero-form-box input::placeholder {
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: rgba(255, 255, 255, 0.38);
+}
+
+.hero-form__btn {
+    position: absolute;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.hero-list {
+    display: flex;
+}
