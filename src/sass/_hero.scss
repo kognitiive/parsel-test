@@ -3,6 +3,7 @@
     height: 626px;
     background-color: #1E252B;
     justify-content: space-between;
+    position: relative;
 
 }
 
@@ -124,4 +125,6 @@ fill: rgba(255, 255, 255, 0.78);
 .hero-fon {
     display: block;
     position: absolute;
+    top:0;
+    right: 0;
 }
