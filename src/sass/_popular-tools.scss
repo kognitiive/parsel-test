@@ -27,11 +27,11 @@
   color: #ffffff8c;
 }
 .popular-tools__list {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
+  // display: flex;
+  // flex-wrap: wrap;
   margin-bottom: 100px;
 }
+
 .popular-tools-list__item {
   width: 392px;
   border: 1px solid black;
@@ -51,4 +51,8 @@
 }
 .popular-tools-list__item {
   padding: 33px;
+}
+
+.slick-dots button {
+  color: tomato;
 }
