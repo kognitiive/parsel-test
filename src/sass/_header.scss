@@ -1,5 +1,6 @@
 .header {
     padding: 26px 0;
+    margin-bottom: 32px;
 }
 
 .navigate {
@@ -57,10 +58,13 @@
     justify-content: center;
 
     &__item:not(:last-child) {
-        margin-right: 41px;
+        margin-right: 5px;
     }
 
     &__button{
+        width: 118px;
+        height: 48px;
+
         font-weight: 600;
         font-size: 16px;
         line-height: 1.5;
@@ -70,22 +74,14 @@
         background-color: inherit;
         border: none;
 
-        cursor: pointer;   
-    }
-
-    &__button-active {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-
-        color: #FDF5FF;
-        background-color: #FF6E30;
-        width: 118px;
-        height: 48px;
-        
-        border-radius: 8px;
-        border-color: #FF6E30;
-
         cursor: pointer;
+        
+        &:hover,
+        &:focus {
+            border-radius: 8px;
+            border-color: #FF6E30;
+            color: #FDF5FF;
+            background-color: #FF6E30;
+        }
     }
 }
