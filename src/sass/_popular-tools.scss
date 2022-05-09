@@ -12,8 +12,6 @@
 }
 
 .list-item__title {
-
-  margin: 0;
   color: #ffffffc7;
 }
 
@@ -29,10 +27,21 @@
 }
 
 .popular-tools__icons {
+  fill: rgba(255, 255, 255, 0.55);
 
   width: 42px;
   height: 42px;
   padding: 7px;
+
+}
+
+.popular-tools-list__link:hover .popular-tools__icons,
+.popular-tools-list__link:focus .popular-tools__icons {
+  fill: rgba(253, 59, 65, 1);
+
+  background-color: #283036;
+  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+  border-radius: 8px;
 }
 
 .popular-tools__icons:not(:last-child) {
@@ -72,6 +81,26 @@
   margin-bottom: 100px;
 }
 
+.popular-tools-list__link {
+  display: block;
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: rgba(40, 48, 54, 0.6);
+    backdrop-filter: blur(50px)  hue-rotate(120deg);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 15px;
+
+    transform: translateY(-30px);
+  }
+}
+.popular-tools-list__container {
+  padding: 33px;
+}
+
 .popular-tools-list__item {
   width: 392px;
   height: 100%;
@@ -89,26 +118,28 @@
   border-radius: 8px;
   background-color: #1e252b;
   color: #ff6e30;
+
+  &:hover,
+  &:focus {
+    background-color: #ff6e30;
+    color: rgba(255, 255, 255, 0.78);
+  }
 }
+
 .popular-tools__btn {
   width: 106px;
   height: 42px;
   float: right;
-  background-color: #1e252b;
+  background-color: inherit;
   color: #ffffff8c;
   border: none;
-  padding: 0;
-}
-.popular-tools__btn:hover,
-.popular-tools__btn:focus {
-  background-color: #ff6e30;
   border-radius: 8px;
-  color: #ffffff;
-}
-.popular-tools-list__item {
-  padding: 33px;
-}
+  padding: 0;
 
-.slick-dots button {
-  color: tomato;
+  &:hover,
+  &:focus {
+   background-color: #ff6e30;
+   
+  color: #ffffff;
+  }
 }
