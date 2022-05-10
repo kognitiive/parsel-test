@@ -3,6 +3,7 @@
     justify-content: space-between;
     position: relative;
 
+    
     &__title {
         font-weight: 500;
         font-size: 50px;
@@ -20,6 +21,10 @@
         color: rgba(255, 255, 255, 0.55);
         margin-bottom: 60px;
     }
+}
+
+.hero-container {
+    margin-bottom: 0;
 }
 
 .hero-box {
