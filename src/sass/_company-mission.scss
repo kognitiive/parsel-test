@@ -1,0 +1,76 @@
+
+.mission-container {
+    display: flex;
+ 
+}
+
+.viually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+// .mission-container__list {
+//     display: flex;
+//     justify-content: flex-start;
+// }
+.mission-container__iteam {
+    display: flex;
+    justify-content: center;
+    width: 1224px;
+
+}
+
+.mission-container__box-pic {
+    display: block;
+    position: relative;
+   
+}
+
+
+
+.mission-container__name    {
+    font-weight: 500;
+        font-size: 26px;
+        line-height: 1.5;
+        letter-spacing: 0.015em;
+        color: rgba(255, 253, 253, 0.78);
+}
+
+.mission-container__profession {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(255, 253, 253, 0.55)
+}
+
+.mission-container__box-text {
+    display: flex;
+    align-items: center;
+   width: 393px;
+   padding-left: 57px;
+}
+
+.mission-container__text {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: rgba(255, 255, 255, 0.78);
+}
+.mission-container__about {
+    display: block;
+    position: absolute;
+   bottom: 29px;
+    right: 4px;
+    padding: 10px 22px 16px 23px;
+    background: rgba(40, 48, 54, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 8px;
+
+}
